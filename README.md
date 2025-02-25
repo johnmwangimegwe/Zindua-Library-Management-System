@@ -1,11 +1,5 @@
 # Zindua-Library-Management-System
 
-## Project Overview
-
-### Project Title
-**Zindua Library Management System with Python and MySQL Database Connectivity**
-
-### Project Summary
 The Zindua Library Management System is a software application designed to efficiently manage a library's operations. It is developed using Python and integrates with a MySQL database to store and manage data related to books, borrowers, and transactions. The system enables book borrowing and returning, tracks due dates, calculates fines, and rewards punctual borrowers with loyalty points.
 
 ## Problem Statement

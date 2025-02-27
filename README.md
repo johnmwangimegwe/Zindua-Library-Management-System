@@ -1,4 +1,4 @@
-# Zindua Library Management System
+# Zindua Library Management System 📚
 The Zindua Library Management System is a Python-based application designed to efficiently manage a library's operations. It allows users to borrow and return books, tracks due dates, calculates fines, and rewards punctual borrowers. The system stores data using CSV files and features a Tkinter-based graphical user interface.
 
 ---
@@ -146,6 +146,7 @@ class Database:
         pass
 ```
 ## Project Files Structure
+```plaintext
 zindua-lms/
 ├── Data/
 │   ├── Books.csv
@@ -158,7 +159,7 @@ zindua-lms/
 ├── gui.py
 ├── auth.py
 └── main.py
-
+``` 
 ## Key Features
 1. CSV Data Integrity
 - Atomic file writes for data consistency

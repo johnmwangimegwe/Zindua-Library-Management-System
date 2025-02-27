@@ -1,0 +1,50 @@
+BookID,Title,Author,ISBN,Genre,Quantity
+QA39.2. B076,How Little Things Can Make a Big Difference,Malcolm Gladwell,978-0316346627,Marketing,3
+QA39.2. M127,The Language of Mathematics: The Stories behind the Symbols,Raúl Rojas,978-0691201887,Mathematics,4
+QA39.2. M128,Developing Mathematical Reasoning: Avoiding the Trap of Algorithms,Pamela Weber Harris,978-1071948262,Mathematics,2
+QA39.2. M129,Sequences and Series Calculus Practice Workbook with Full Solutions,Chris McMullen ,978-1941691489,Mathematics,3
+QA39.2. M130,Essential Calculus Skills Practice Workbook with Full Solutions,Chris McMullen ,978-1941691243,Mathematics,2
+QA39.2. P041,The Demon-Haunted World: Science as a Candle in the Dark,Carl Sagan and Ann Druyan,978-0345409461,Physics,5
+QA39.2. P042,The World as I See It,Albert Einstein,978-9388118125,Physics,10
+QA39.2. P043,New Code of the Universe,Baryon Frost ,978-1738062164,Physics,2
+QA28.8. T132,Fundamentals of Data Engineering: Plan and Build Robust Data Systems,Joe Reis and Matt Housley ,978-1098108304,Technology,2
+QA28.8. T133,"Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems",Martin Kleppmann,978-1449373320,Technology,5
+QA28.8. T134,Data Science from Scratch: First Principles with Python, Joel Grus,978-1492041139,Technology,6
+QA28.8. T135,Data Analytics Essentials You Always Wanted To Know,Dr. Bianca Szasz ,978-1636511184,Technology,4
+QA39.2. M136,Linear Algebra Done Right,Sheldon Axler,978-3319110790,Mathematics,4
+QA39.2. M137,Calculus: Early Transcendentals,James Stewart,978-1337613927,Mathematics,6
+QA39.2. M138,Discrete Mathematics and Its Applications,Kenneth H. Rosen,978-1259676512,Mathematics,8
+QA39.2. M139,Mathematical Methods in the Physical Sciences,Mary L. Boas,978-0471198260,Mathematics,3
+QA39.2. P044,A Brief History of Time,Stephen Hawking,978-0553380163,Physics,10
+QA39.2. P045,The Elegant Universe,Brian Greene,978-0393338102,Physics,5
+QA28.8. T136,Introduction to the Theory of Computation,Michael Sipser,978-1133187790,Technology,2
+QA28.8. T137,Python Crash Course,Eric Matthes,978-1593276034,Technology,8
+QA28.8. T138,Artificial Intelligence: A Guide for Thinking Humans,Melanie Mitchell,978-0374257835,Technology,5
+QA28.8. T139,The Pragmatic Programmer: Your Journey to Mastery,"Andrew Hunt, David Thomas",978-0135957059,Technology,7
+QA39.2. M140,Advanced Engineering Mathematics,Erwin Kreyszig,978-0470458365,Mathematics,4
+QA39.2. M141,Introduction to Real Analysis,Robert G. Bartle,978-0471433316,Mathematics,5
+QA39.2. P046,The Fabric of the Cosmos,Brian Greene,978-0375727207,Physics,3
+QA39.2. P047,Quantum Mechanics: The Theoretical Minimum,Leonard Susskind,978-0465062904,Physics,5
+QA28.8. T140,Deep Learning,"Ian Goodfellow, Yoshua Bengio, Aaron Courville",978-0262035613,Technology,4
+QA28.8. T141,Machine Learning Yearning,Andrew Ng,978-1999579500,Technology,9
+QA28.8. T142,Introduction to Algorithms,"Thomas H. Cormen, Charles E. Leiserson",978-0262033848,Technology,5
+QA39.2. M143,Topology,James Munkres,978-0131816299,Mathematics,2
+QA39.2. M144,Complex Analysis,Lars Ahlfors,978-0070006577,Mathematics,3
+QA39.2. P048,The Feynman Lectures on Physics,Richard Feynman,978-0465023824,Physics,8
+QA39.2. P049,The Hidden Reality: Parallel Universes and the Deep Laws of the Cosmos,Brian Greene,978-0307278128,Physics,6
+QA28.8. T143,The Art of Computer Programming,Donald Knuth,978-0201896831,Technology,3
+QA28.8. T144,Computer Networking: A Top-Down Approach,"Kurose, Ross",978-0132856201,Technology,5
+QA28.8. T145,Reinforcement Learning: An Introduction,"Richard S. Sutton, Andrew G. Barto",978-0262039246,Technology,7
+QA28.8. T146,Automate the Boring Stuff with Python,Al Sweigart,978-1593275990,Technology,6
+QA39.2. M145,Principles of Mathematical Analysis,Walter Rudin,978-0070542358,Mathematics,2
+QA39.2. M146,Probability and Statistics,"Morris H. DeGroot, Mark J. Schervish",978-0321500465,Mathematics,5
+QA39.2. P050,The Black Hole War,Leonard Susskind,978-0316016407,Physics,4
+QA28.8. T147,Data Structures and Algorithms in Python,Michael T. Goodrich,978-1118290279,Technology,8
+QA28.8. T148,The Algorithm Design Manual,Steven Skiena,978-3030542554,Technology,3
+QA28.8. T149,Foundations of Machine Learning,"Mehryar Mohri, Afshin Rostamizadeh",978-0262039406,Technology,6
+QA39.2. M147,Abstract Algebra,"David S. Dummit, Richard M. Foote",978-0471433347,Mathematics,4
+QA39.2. M148,A Course in Probability Theory,Kai Lai Chung,978-0121741518,Mathematics,3
+QA39.2. P051,Six Easy Pieces: Essentials of Physics Explained,Richard P. Feynman,978-0465025279,Physics,6
+QA39.2. P052,Black Holes & Time Warps: Einstein's Outrageous Legacy,Kip Thorne,978-0393312768,Physics,5
+QA28.8. T150,Clean Code: A Handbook of Agile Software Craftsmanship,Robert C. Martin,978-0132350884,Technology,7
+QA28.8. T151,The Mythical Man-Month: Essays on Software Engineering,Frederick P. Brooks Jr.,978-0201835953,Technology,5

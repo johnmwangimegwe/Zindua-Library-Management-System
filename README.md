@@ -113,7 +113,7 @@ The Zindua Library Management System is a software application designed to effic
 - MySQL database with structured tables:
   - `Books (BookID, Title, Author, ISBN, Genre, ShelfLocation, Quantity)`
   - `Borrowers (MemberID, Name, ContactDetails, BorrowedBooks, DueDates)`
-  - `Transactions (TransactionID, MemberID, BookID, BorrowDate, ReturnDate, Fine)`
+  - `Transactions (TransactionID, MemberID, BookID, BorrowDate, DueDate, Fine)`
   - `Fines (MemberID, Amount, Status)`
   - `LoyaltyPoints (MemberID, Points)`
 

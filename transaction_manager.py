@@ -4,7 +4,6 @@ from datetime import datetime, timedelta
 from models import Transaction
 from config import TRANSACTIONS_FILE, BOOKS_FILE
 from Book_Manager import fetch_books, update_book
-from datetime import datetime, timedelta
 
 FINE_RATE = 50.0  # Fine per day for overdue books
 
@@ -79,7 +78,7 @@ def return_book(member_id, book_id):
     
     # Generate message
     if overdue_days <= 0:
-        msg = f"CONGRATULATIONS! You Returned '{book.title}' on time. 5 loyalty points added!"
+        msg = f"CONGRATULATIONS! 🎉 You have Returned '{book.title}' on time. 5 loyalty points added!"
     else:
         msg = f"SORRY! Overdue by {overdue_days} days. Fine: Ksh{fine}. Pay at the counter to continue using the library."
     

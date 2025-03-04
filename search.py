@@ -1,5 +1,4 @@
 # Implements book search functionality
-
 import csv
 from config import BOOKS_FILE
 from Book_Manager import fetch_books

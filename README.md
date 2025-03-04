@@ -1,154 +1,126 @@
-# Zindua-Library-Management-System
+# 📚 Zindua Library Management System 📚
 
-The Zindua Library Management System is a software application designed to efficiently manage a library's operations. It is developed using Python and integrates with a MySQL database to store and manage data related to books, borrowers, and transactions. The system enables book borrowing and returning, tracks due dates, calculates fines, and rewards punctual borrowers with loyalty points.
+### A Python-based Library Management System for Efficient Book and Borrower Management
 
-## Problem Statement
+<img src="Screenshots\Zindua LMS Screenshot.png" alt="Zindua Library Management System">
 
-### What problem will the Python project solve?
-- Lack of an organized and efficient system for managing book borrowing and returning.
-- Difficulty in tracking book availability, borrower activity, and overdue returns.
-- Inefficiency in managing book categorization and location within the library.
-- Absence of a structured penalty and reward system for borrowers.
+<a href="https://github.com/johnmwangimegwe/Zindua-Library-Management-System/tree/main"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
+<a href="https://github.com/johnmwangimegwe/Zindua-Library-Management-System/tree/main"><img src="https://img.shields.io/badge/Built%20by-developers%20%3C%2F%3E-0059b3"></a>
+<a href="https://github.com/johnmwangimegwe/Zindua-Library-Management-System/tree/main"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=yellow"></a>
 
-### Why is this solution needed?
-- A well-organized system reduces manual errors and enhances efficiency.
-- Enables systematic tracking of book locations, reducing search time.
-- Ensures fair borrower practices through automated fine calculations and loyalty rewards.
-- Provides a seamless experience for library users and administrators.
+---
 
-### Who will use this program?
-- Students and faculty members of Zindua who need to borrow books.
-- Library administrators responsible for book management.
-- Academic institutions looking for a structured book tracking solution.
+## 🚀 Overview
 
-## Technical Details
+The **Zindua Library Management System** is a Python-based application designed to streamline library operations. It provides a comprehensive solution for managing books, borrowers, and transactions, with features like book borrowing, returning, fine calculation, and search functionality. The system uses CSV files for data storage and a Tkinter-based GUI for user interaction.
 
-### Python Components
+---
+## Inspiration
 
-#### Python Version
-**Python 3.13.1**
+In a world where AI and technology are evolving rapidly, the need to optimize resources and automate repetitive tasks has become more critical than ever. At Zindua, I recognized the challenges faced by libraries in managing books, borrowers, and transactions manually. These challenges include human errors, book loss, and inefficiencies in tracking borrowed books. To address these issues, I developed the **Zindua Library Management System (LMS)** to automate library processes, reduce errors, and encourage reading by rewarding loyalty points.
 
-#### Core Python Concepts to be Used
-- [x] Functions
-- [x] Classes and Objects
-- [x] File Handling
-- [x] Error Handling
-- [x] List/Dictionary Comprehensions
+As the saying goes, *"If you find yourself doing the same task today, and you are confident you will do it the exact same way tomorrow and in the future, then it's time to automate that process."* – **Michael Peeler**. This quote underscores the importance of automation in streamlining workflows and improving efficiency. 
 
+---
 
-#### Basic Python Libraries
-- [x] `mysql.connector` – for MySQL database connectivity
-- [x] `datetime` – for handling book borrowing and return dates
-- [x] `json` – for storing and managing configuration settings
-- [x] `tkinter` – for GUI development
-- [x] `requests` – if API calls for book data retrieval are implemented
-
-### Development Tools
-- **Editor:** VS Code
-- **Version Control:** Git/GitHub
-
-## Program Structure
+## 🛠️ Features ⚙
 
 ### Core Features
+1. **Book Management**:
+   - Add, update, and delete books.
+   - Track book availability and shelf locations.
+   - Search books by title, author, genre, or availability.
 
-#### **Book Management**
-- Adding new books with details such as Book ID, title, author, ISBN, genre, and quantity.
-- Updating existing book information.
-- Removing unavailable books.
+2. **Borrower Management**:
+   - Register and update borrower details.
+   - Track borrowed books and due dates.
+   - Manage borrower loyalty points.
 
-#### **Borrower Management**
-- Adding and updating borrower details.
-- Removing borrower records when necessary.
-- Tracking borrowed books and due dates.
+3. **Transaction Management**:
+   - Borrow and return books.
+   - Calculate fines for overdue books.
+   - Reward points for timely returns.
 
-#### **Book Borrowing and Returning**
-- Allowing students to borrow books by linking their membership ID.
-- Recording due dates and managing overdue books.
-- Implementing a return mechanism that updates the database.
+4. **User Authentication**:
+   - Secure login for admins and borrowers.
+   - Password hashing for security.
 
-#### **Book Search and Availability**
-- Searching books by title, author, or genre.
-- Displaying book availability and location.
+5. **Reporting**:
+   - Generate reports on book availability, overdue books, and borrower activity.
+   - Export reports in CSV format.
 
-#### **Fine Calculation and Loyalty Points**
-- Automatically calculating fines for overdue books.
-- Implementing loyalty points for borrowers who return books on time.
+6. **Graphical User Interface (GUI)**:
+   - Intuitive Tkinter-based interface for easy navigation.
+   - Interactive dashboards for borrowers and admins.
 
-## User Interface
+---
 
-### Command Line Interface (CLI)
-- Simple text-based interface with menu options for library staff.
+## 🧰 Technical Details
 
-### GUI with Tkinter
-- Interactive window with:
-  - Book search functionality
-  - Borrow and return book management
-  - Borrower details section
-  - Overdue book alert system
+### Python Components
+- **Python Version**: Python 3.13.1
+- **Core Python Concepts**:
+  - Functions
+  - Classes and Objects
+  - File Handling (CSV)
+  - Error Handling
+  - List/Dictionary Comprehensions
+- **Libraries**:
+  - `csv` – for reading and writing CSV files.
+  - `datetime` – for handling dates and times.
+  - `tkinter` – for building the GUI.
+  - `hashlib` – for password hashing.
 
-## Project Timeline
+### Project Structure
+```plaintext
+zindua-lms/
+├── Data/
+│   ├── Books.csv
+│   ├── Borrowers.csv
+│   └── Transactions.csv
+├── Managers/
+│   ├── Book_Manager.py
+│   ├── Borrower_Manager.py
+│   └── Transaction_Manager.py
+├── gui.py
+├── auth.py
+├── search.py
+├── reporting.py
+├── models.py
+├── database.py
+├── config.py
+└── main.py
+```
 
-| Day | Programming Tasks | Status |
-|-----|------------------|--------|
-| 1 | Set up project structure | Not Started |
-| 2 | Implement book management functionality | Not Started |
-| 3 | Implement borrower management | Not Started |
-| 4 | Develop book borrowing and returning features | Not Started |
-| 5 | Implement book search and availability | Not Started |
-| 6 | Implement fine and loyalty point calculation | Not Started |
-| 7 | Develop database connectivity and CRUD operations | Not Started |
-| 8 | Create GUI for system interaction | Not Started |
-| 9 | Security and input validation implementation | Not Started |
-| 10 | Testing and debugging | Not Started |
+## 🚀 Setup & Usage
 
-## Program Design
+### Installation
+1. Clone the repository:
+```
+git clone https://github.com/johnmwangimegwe/Zindua-Library-Management-System.git
+cd Zindua-Library-Management-System
+```
 
-### Functions/Classes Overview
-- `class LibrarySystem`: Manages book operations.
-- `class Borrower`: Handles borrower information.
-- `class Transaction`: Manages borrowing and returning transactions.
-- `class Database`: Establishes MySQL connection and manages queries.
+2. Install dependencies:
+```
+pip install tkinter
+```
+3. Initialize data files:
+```
+python database.py
+```
+4. Start the system:
+```
+python main.py
+```
 
-### Data Storage
-- MySQL database with structured tables:
-  - `Books (BookID, Title, Author, ISBN, Genre, ShelfLocation, Quantity)`
-  - `Borrowers (MemberID, Name, ContactDetails, BorrowedBooks, DueDates)`
-  - `Transactions (TransactionID, MemberID, BookID, BorrowDate, DueDate, Fine)`
-  - `Fines (MemberID, Amount, Status)`
-  - `LoyaltyPoints (MemberID, Points)`
+## 🛠️ Future Improvements
+- Data Compression: Implement CSV data compression to handle large datasets efficiently, reducing storage requirements and improving performance.
+- Change History Logging: Introduce a logging system to track changes made to book and borrower records, ensuring transparency and accountability.
+- Backup System: Automate CSV file backups to prevent data loss and ensure data integrity in case of system failures.
+- Enhanced GUI: Add more interactive elements like charts and graphs to provide better insights into library operations and user activity.
+- MPESA Integration: Implement the Daraja API to enable users to pay fines automatically and conveniently using MPESA, streamlining the payment process and enhancing user experience.
 
-### Error Handling
-- Handling database connection failures.
-- Managing invalid user inputs.
-- Preventing duplicate entries.
-- Implementing exception handling for API requests (if applicable).
-
-## Testing Strategy
-- Unit tests for book and borrower management.
-- Validation of book search and availability.
-- Integration testing for database operations.
-- Simulating overdue book returns to validate fine calculation.
-
-## Project Delivery
-
-### Running the Program
-1. Install dependencies:
-   ```bash
-   pip install mysql-connector-python tkinter
-   ```
-2. Set up the MySQL database.
-3. Run the program:
-   ```bash
-   python main.py
-   ```
-
-### Potential Challenges
-- **Database Connectivity Issues:** Ensure proper configuration of MySQL server.
-- **Handling Large Data Sets:** Optimize database queries for faster retrieval.
-- **Security Concerns:** Implement authentication and input validation.
-
-### Future Improvements
-- Implementing barcode scanning for book management.
-- Adding an admin dashboard with analytics.
-- Creating a web-based interface for better accessibility.
-- Enhancing user experience with personalized book recommendations.
+## 💪 Challenges We Ran Into
+- Implementing the graphical user interface (GUI) while ensuring all features worked seamlessly together. Integrating the Tkinter library with the backend logic required careful planning and debugging to ensure smooth functionality. 
+- Managing data consistency across multiple CSV files posed a challenge, especially during simultaneous read/write operations. Despite these obstacles, I persevered, leveraging Python's robust libraries and modular programming practices to deliver a functional and user-friendly system.

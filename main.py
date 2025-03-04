@@ -1,4 +1,4 @@
-# main.py - Application entry point
+# Application entry point
 import os
 from database import create_csv_files
 from gui import LibraryGUI

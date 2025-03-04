@@ -11,12 +11,6 @@ class Book:
         self.genre = genre
         self.quantity = quantity
 
-    def save_to_csv(self):
-        """Saves book details to the books.csv file."""
-        with open(BOOKS_FILE, mode="a", newline="") as file:
-            writer = csv.writer(file)
-            writer.writerow([self.book_id, self.title, self.author, self.isbn, self.genre, self.quantity])
-
     @staticmethod #Convert a function to be a static method. A static method does not receive an implicit first argument.
     def load_books():
         """Loads all books from the books.csv file."""
